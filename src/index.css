@@ -1,3 +1,8 @@
+*{
+  margin: 0;
+  padding:0;
+}
+
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
@@ -5,9 +10,246 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-color: black;
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+body{
+  background-color: black;
+  color: rgb(250, 247, 247);
+}
+
+/* navbar section */
+body{
+  background-color: black;
+  color: rgb(250, 247, 247);
+}
+.navbar a{
+  font-family: 'Source Code Pro', monospace;
+}
+.navbar-nav{
+  text-align: center;
+}
+.navbar-brand{
+  font-size: 23px;
+}
+.nav-item{
+  font-size: 22px;
+}
+
+
+/* Home section */
+
+/* Home1 section */
+.home1{
+
+margin-left: 180px;
+margin-bottom: 100px;
+}
+.Home_heading1{
+  margin-top: 40px;
+  font-size: 3.6rem;
+}
+.heading_text{
+  margin-top: 4px;
+}
+.cards
+{
+  margin-top: 30px;
+}
+.card-body
+{
+  background-color: #292826;
+  color: gray;
+}
+.ic
+{
+  margin-top: 13px;
+}
+.col-md-4 {
+  width: 29.333%;
+}
+.card-text
+{
+  color: aliceblue;
+  font-size: 2.1rem;
+}
+.card1{
+  border: 2px solid red;
+
+}
+.txt1{
+  margin-left: 10px;
+  margin-top: 10px;
+}
+.container1{
+  display: flex;
+  margin-left: -23px;
+  margin-top: 37px;
+}
+.container1 p{
+  font-size: 40px;
+  margin-left: 10px;
+}
+.content{
+  margin-left: 12px;
+}
+.cards {
+  display: flex;
+  width: 380px;
+  align-items: center;
+  margin-left: 2px;
+  margin: 10px;
+  padding: 5px;
+  border: 1px solid #372d2d;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(27, 26, 26, 0.1);
+}
+
+
+
+.icon {
+  width: 40px;
+  height: 40px;
+  background-color: #3498db;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+  margin-right: 10px;
+  margin-left: 25px;
+}
+@media (max-width: 700px) {
+  .container1
+  {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+  }
+  .home1{
+
+    margin-left: 50px;
+    margin-bottom: 100px;
+    }
+    .cards
+    {
+      width: 300px;
+    }
+
+    .home2
+    {
+      margin-left: 50px;
+    }
+
+}
+/* Home2 section */
+.home2
+{
+  margin-left: 50px;
+  margin-top: 100px;
+}
+.ico {
+  font-size: 23px;
+}
+.ico img
+{
+  margin-right: 40x;
+}
+
+/* token section */
+.tokens
+{
+  margin-left: 127px;
+  margin-top: 100px;
+}
+.tokenhead
+{
+  font-size: 2rem;
+  margin-left: 62px;
+}
+.ico2
+{
+  margin-top: 24px;
+  margin-bottom: 14px;
+}
+.ico2 img
+{
+  width: 40px;
+}
+.btn
+{
+  margin-left: 7px;
+}
+.tokenbutton
+{
+  margin-bottom: 20px;
+}
+
+.contenttok p{
+  margin-top: 4px;
+}
+
+/* //Contact SECTION */
+.contact
+{
+ margin-left: 180px;
+}
+.center-icons {
+  text-align: center;
+}
+
+.center-icons a {
+  display: inline-block;
+  margin: 0 20px;
+}
+.icocontact
+{
+  width: 50px;
+}
+.conn img
+{
+  width: 23px;
+}
+.contact
+{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 10%;
+}
+.logo img
+{
+  width: 100px;
+  margin-left: -10px;
+}
+.contacts
+{
+  display: flex;
+  flex-direction: row;
+  margin-left: -170px;
+}
+.contacts img
+{
+  margin-left: 40px;
+  width: 38px;
+}
+.contentcont
+{
+  display: flex;
+  flex-direction: row;
+}
+.footer {
+  color: #fff;
+  text-align: center;
+  padding: 20px 0;
+}
+
+.footer a {
+  color: #fff;
+  text-decoration: none;
+  margin: 0 20px;
 }
